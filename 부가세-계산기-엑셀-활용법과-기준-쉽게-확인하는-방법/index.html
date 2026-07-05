@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>부가세 계산기 엑셀 활용법과 기준 쉽게 확인하는 방법</title>
+<meta name="description" content="2026년 7월 6일 기준으로 한국에서는 부가세 계산을 간편하게 할 수 있는 &quot;부가세 계산기 엑셀&quot; 활용법이 점점 더 인기를 얻고 있어요. 특히 사업자들이 매출과 구매내역을 빠르고 정확하게 정리하려면 필수 도구거든요. 이 글에서는 엑셀로 부가세를 계산하는 방법과 활용 팁을 상세히 알려드">
+<link rel="canonical" href="https://ssp2021.kr/부가세-계산기-엑셀-활용법과-기준-쉽게-확인하는-방법/">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Crect%20width%3D%27100%27%20height%3D%27100%27%20rx%3D%2718%27%20fill%3D%27%23be185d%27%2F%3E%3Ctext%20x%3D%2750%27%20y%3D%2772%27%20font-size%3D%2762%27%20text-anchor%3D%27middle%27%20fill%3D%27white%27%20font-family%3D%27sans-serif%27%20font-weight%3D%27800%27%3ES%3C%2Ftext%3E%3C%2Fsvg%3E">
+<meta property="og:type" content="article">
+<meta property="og:title" content="부가세 계산기 엑셀 활용법과 기준 쉽게 확인하는 방법">
+<meta property="og:description" content="2026년 7월 6일 기준으로 한국에서는 부가세 계산을 간편하게 할 수 있는 &quot;부가세 계산기 엑셀&quot; 활용법이 점점 더 인기를 얻고 있어요. 특히 사업자들이 매출과 구매내역을 빠르고 정확하게 정리하려면 필수 도구거든요. 이 글에서는 엑셀로 부가세를 계산하는 방법과 활용 팁을 상세히 알려드">
+<meta property="og:url" content="https://ssp2021.kr/부가세-계산기-엑셀-활용법과-기준-쉽게-확인하는-방법/">
+<meta property="og:image" content="https://ssp2021.kr/부가세-계산기-엑셀-활용법과-기준-쉽게-확인하는-방법/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" href="https://ssp2021.kr/feed.xml" title="정보다있다">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "부가세 계산기 엑셀 활용법과 기준 쉽게 확인하는 방법", "url": "https://ssp2021.kr/부가세-계산기-엑셀-활용법과-기준-쉽게-확인하는-방법/", "datePublished": "2026-07-05T16:39:14.066340", "dateModified": "2026-07-05T16:39:14.066340", "description": "2026년 7월 6일 기준으로 한국에서는 부가세 계산을 간편하게 할 수 있는 &quot;부가세 계산기 엑셀&quot; 활용법이 점점 더 인기를 얻고 있어요. 특히 사업자들이 매출과 구매내역을 빠르고 정확하게 정리하려면 필수 도구거든요. 이 글에서는 엑셀로 부가세를 계산하는 방법과 활용 팁을 상세히 알려드", "author": {"@type": "Person", "name": "ssp2021.kr"}, "publisher": {"@type": "Organization", "name": "정보다있다"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "부가세 계산 엑셀 수식은 어떻게 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "공급가액이 A1 셀에 있고, 부가세율이 10%인 경우, 부가세는 `=A1*0.1`로 계산돼요. 포함 가격에서 공급가액을 역산하려면 `=A1/1.1`을 써보세요."}}, {"@type": "Question", "name": "엑셀로 만든 부가세 계산기가 무료인가요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 많은 무료 양식이 공개되어 있어요. 국세청이나 블로그에서 무료 다운로드 후 자신만의 수식으로 편집해서 쓰면 돼요."}}, {"@type": "Question", "name": "엑셀 부가세 계산기 활용 시 주의점이 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "반올림 처리와 소수점 자리수 조절을 꼭 하세요. `ROUND` 함수로 정확한 계산을 유지하면 신고서 작성도 훨씬 수월해집니다."}}]}</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5883889828782515" crossorigin="anonymous"></script>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, "Noto Sans KR", sans-serif; line-height: 1.75; max-width: 780px; margin: 0 auto; padding: 24px 20px 80px; color: #2c2c2c; background: #fafafa; }
+a { color: #3162e0; }
+header.post { border-bottom: 1px solid #e8e8e8; padding-bottom: 16px; margin-bottom: 20px; }
+header.post h1 { font-size: 28px; line-height: 1.4; margin: 0 0 10px; font-weight: 800; color: #111; letter-spacing: -0.02em; }
+header.post .meta { color: #888; font-size: 13px; }
+.post-nav { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; margin: 0 0 20px; padding: 12px 16px; background: #fff; border: 1px solid #e8e8e8; border-radius: 10px; }
+.post-nav .nav-prev { display: flex; flex-direction: column; gap: 2px; text-decoration: none; min-width: 0; }
+.post-nav .nav-prev.empty { visibility: hidden; }
+.post-nav .nav-label { font-size: 11px; color: #6b7280; font-weight: 600; }
+.post-nav .nav-title { font-size: 14px; color: #15296b; font-weight: 700; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.post-nav .nav-home { font-size: 13px; color: #3162e0; text-decoration: none; font-weight: 700; padding: 6px 10px; border-radius: 6px; background: #f0f4ff; white-space: nowrap; }
+.intro { font-size: 16px; background: #fff; border-radius: 10px; padding: 16px 20px; border: 1px solid #e8e8e8; margin: 20px 0; }
+.intro p { margin: 0; }
+.toc { background: #fff; border: 1px solid #e8e8e8; border-radius: 10px; padding: 14px 20px; margin: 20px 0; }
+.toc-title { font-size: 14px; font-weight: 700; color: #444; margin-bottom: 8px; }
+.toc ul { list-style: none; padding: 0; margin: 0; }
+.toc li { margin: 4px 0; font-size: 14px; }
+.toc li.toc-sub { padding-left: 16px; font-size: 13px; }
+.toc a { text-decoration: none; color: #3162e0; }
+article { font-size: 16px; }
+article p { margin: 14px 0; }
+article h2 { font-size: 22px; margin: 40px 0 14px; padding: 6px 0 6px 14px; border-left: 4px solid #3162e0; background: linear-gradient(90deg, #f0f4ff 0%, transparent 100%); font-weight: 800; color: #15296b; scroll-margin-top: 16px; }
+article h3 { font-size: 18px; margin: 28px 0 10px; color: #1a3aa0; font-weight: 700; scroll-margin-top: 16px; }
+article h3::before { content: "▸ "; color: #3162e0; }
+article table, article .wp-block-table { width: 100%; border-collapse: collapse; margin: 18px 0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.06); font-size: 14px; }
+article table th, article table td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #eaeaea; vertical-align: top; }
+article table th { background: #f5f7fa; font-weight: 700; color: #15296b; border-bottom: 2px solid #d8dde7; }
+.smart-button-container { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 10px; padding: 14px 18px; margin: 20px 0; }
+.smart-button-container .sb-title { margin-bottom: 10px; font-weight: 700; color: #ea580c; font-size: 14px; }
+.smart-button-container a { display: inline-block; padding: 10px 18px; background: #ff6a3d; color: #fff !important; border-radius: 6px; text-decoration: none !important; font-weight: 600; font-size: 14px; line-height: 1.4; }
+.smart-button-container a:hover { background: #ea580c; }
+.ad-slot { display: block; width: 100%; border-radius: 12px; overflow: hidden; text-decoration: none; background: linear-gradient(135deg, #0891B2, #164E63); color: #fff; position: relative; margin: 24px 0; }
+.ad-slot.banner-wide { aspect-ratio: 4/1; max-width: 800px; margin: 20px auto; }
+.ad-slot .ad-inner { position: absolute; inset: 0; padding: 16px 22px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.ad-slot.has-image .ad-inner { background: linear-gradient(90deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.25) 60%, rgba(0,0,0,0) 100%); }
+.ad-slot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.ad-slot .ad-inner { z-index: 1; }
+.ad-slot .ad-label { position: absolute; top: 6px; right: 10px; font-size: 10px; font-weight: 700; color: rgba(255,255,255,.7); background: rgba(0,0,0,.25); padding: 2px 6px; border-radius: 4px; z-index: 2; }
+.ad-slot .ad-title { font-size: 18px; font-weight: 800; }
+.ad-slot .ad-subtitle { font-size: 13px; opacity: 0.9; margin-top: 2px; }
+.ad-slot .ad-cta { display: inline-block; margin-top: 8px; padding: 6px 14px; background: #fff; color: #15296b; border-radius: 20px; font-size: 12px; font-weight: 700; }
+.ad-slot.banner-wide .ad-title, .ad-slot.banner-wide .ad-subtitle, .ad-slot.banner-wide .ad-cta { max-width: 55%; }
+.ad-slot.kakao-channel { background: #FEE500; }
+.ad-slot.kakao-channel .ad-title { color: #3C1E1E; }
+.ad-slot.kakao-channel .ad-subtitle { color: rgba(60,30,30,0.82); }
+.ad-slot.kakao-channel .ad-label { background: #3C1E1E; color: #FEE500; }
+.ad-slot.kakao-channel .ad-cta { background: #3C1E1E; color: #FEE500; }
+@media (max-width: 600px) {
+  .ad-slot.banner-wide { aspect-ratio: auto; min-height: 120px; }
+  .ad-slot.banner-wide .ad-inner { position: relative; inset: auto; padding: 14px 18px; }
+  .ad-slot.banner-wide .ad-title, .ad-slot.banner-wide .ad-subtitle, .ad-slot.banner-wide .ad-cta { max-width: 100%; }
+  .ad-slot.banner-wide .ad-title { font-size: 16px; line-height: 1.3; }
+  .ad-slot.banner-wide .ad-subtitle { font-size: 12px; line-height: 1.4; }
+}
+.post-list { background: #fff; border: 1px solid #e8e8e8; border-radius: 10px; padding: 18px 22px; margin: 20px 0; }
+.post-list h3 { margin: 0 0 12px; font-size: 15px; font-weight: 700; color: #444; padding-bottom: 8px; border-bottom: 1px solid #eee; }
+.post-list ul { list-style: none; padding: 0; margin: 0; }
+.post-list li { padding: 10px 0; border-bottom: 1px dashed #eee; display: flex; justify-content: space-between; gap: 12px; font-size: 14px; }
+.post-list a { text-decoration: none; color: #2c2c2c; flex: 1; }
+.post-list .date { color: #999; font-size: 12px; white-space: nowrap; }
+footer { margin-top: 50px; padding-top: 18px; border-top: 1px solid #e8e8e8; color: #aaa; font-size: 13px; text-align: center; }
+footer a { color: #3162e0; text-decoration: none; }
+footer .footer-sites { margin-top: 10px; font-size: 12px; color: #888; line-height: 1.7; }
+footer .footer-sites a { margin: 0 4px; }
+@media (max-width: 600px) { body { padding: 16px 14px 60px; } header.post h1 { font-size: 22px; } article h2 { font-size: 19px; } }
+</style>
+</head>
+<body>
+<nav class="post-nav">
+  <a class="nav-prev" href="/2026년을-대비하는-etf란-투자-방법과-신청-기준-알아보기/" rel="prev"><span class="nav-label">← 이전글</span><span class="nav-title">2026년을 대비하는 ETF란 투자 방법과 신청 기준 알아보기</span></a>
+  <a class="nav-home" href="/">🏠 정보다있다</a>
+</nav>
+<header class="post">
+  <h1>부가세 계산기 엑셀 활용법과 기준 쉽게 확인하는 방법</h1>
+  <div class="meta">발행: 2026-07-06</div>
+</header>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5883889828782515" data-ad-slot="6656858050" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+<div class="intro"><p>2026년 7월 6일 기준으로 한국에서는 부가세 계산을 간편하게 할 수 있는 "부가세 계산기 엑셀" 활용법이 점점 더 인기를 얻고 있어요. 특히 사업자들이 매출과 구매내역을 빠르고 정확하게 정리하려면 필수 도구거든요. 이 글에서는 엑셀로 부가세를 계산하는 방법과 활용 팁을 상세히 알려드릴게요.</p></div>
+<div class="smart-button-container"><div class="sb-title">📎 관련 정보</div><p><a href="https://addtax.ledgolf.kr/" target="_blank" rel="noopener noreferrer nofollow" class="smart-button">부가세계산기</a></p></div>
+<nav class="toc"><div class="toc-title">📑 목차</div><ul><li><a href="#부가세-계산-엑셀-활용법">부가세 계산 엑셀 활용법</a></li><li><a href="#엑셀-부가세-계산기-만들기-핵심-팁">엑셀 부가세 계산기 만들기 핵심 팁</a></li><li><a href="#부가세-엑셀-계산기-활용-시-유용한-기능">부가세 엑셀 계산기 활용 시 유용한 기능</a></li><li><a href="#부가세-계산-엑셀과-온라인-계산기-비교">부가세 계산 엑셀과 온라인 계산기 비교</a></li><li><a href="#필수-부가세-계산-엑셀-예제표">필수! 부가세 계산 엑셀 예제표</a></li><li><a href="#자주-묻는-질문">자주 묻는 질문</a></li><li class="toc-sub"><a href="#부가세-계산-엑셀-수식은-어떻게-하나요">부가세 계산 엑셀 수식은 어떻게 하나요?</a></li><li class="toc-sub"><a href="#엑셀로-만든-부가세-계산기가-무료인가요">엑셀로 만든 부가세 계산기가 무료인가요?</a></li><li class="toc-sub"><a href="#엑셀-부가세-계산기-활용-시-주의점이-있나요">엑셀 부가세 계산기 활용 시 주의점이 있나요?</a></li></ul></nav>
+<div class="ad-slot banner-wide kakao-channel" data-slot="kakao_top" data-ad-type="kakao-channel"></div>
+<article><h2 id="부가세-계산-엑셀-활용법">부가세 계산 엑셀 활용법</h2>
+<p>엑셀로 부가세 계산하는 방법은 아주 간단하면서도 강력한 업무 도구가 될 수 있는데요, 가장 기본은 공급가액과 부가세를 각각 계산하는 수식을 이해하는 것이예요. 예를 들어서, 공급가액이 100만원이고 부가세율이 10%인 경우, 부가세는 10만원이 되죠. 엑셀에서는 이를 자동화하는 수식을 넣어두면 반복 계산이 훨씬 편해져요. 예를 들어, 공급가액이 A1 셀에 입력되어 있다면, 부가세는 `=A1*0.1`로 계산 가능하고, 총 금액은 `=A1+A2`로 쉽게 구할 수 있어요. 또한, 부가세 포함 가격에서 공급가액을 역산하는 공식도 자주 쓰이는데, 이는 `=A1/1.1` 같은 수식을 작성하면 돼요. 이렇게 수식을 만들어두면 매번 계산할 필요 없이 수치만 입력하면 바로 결과를 얻을 수 있거든요.</p>
+
+<h2 id="엑셀-부가세-계산기-만들기-핵심-팁">엑셀 부가세 계산기 만들기 핵심 팁</h2>
+<p>엑셀로 부가세 계산기를 만들 때 주의할 점은 소수점 처리와 반올림이에요. 세무 관련 계산은 정확도가 중요하거든요. 일반적으로 `ROUND` 함수를 활용해서 소수점 자리수를 정리하는 게 좋아요. 예를 들어, 부가세를 소수점 둘째 자리까지 계산하려면 `=ROUND(A1*0.1, 2)`로 입력하시면 되고, 반올림 후 소수점이 깔끔하게 정리돼서 일관성 있게 계산할 수 있죠. 또 하나 중요한 점은, 공급가액이 정수인지 소수인지에 따라 수식을 약간 조정하는 것인데요, 이때는 `IF` 문을 활용해서 소수 여부에 따라 다른 공식을 적용하는 것도 가능해요. 그리고, 엑셀 파일을 저장할 때는 데이터 누락을 막기 위해서 입력 셀에 데이터 유효성 검사를 설정하는 것도 추천드려요.</p>
+
+<h2 id="부가세-엑셀-계산기-활용-시-유용한-기능">부가세 엑셀 계산기 활용 시 유용한 기능</h2>
+<p>엑셀 부가세 계산기를 좀 더 편리하게 사용하려면, 자동화 기능을 적극 활용하는 게 좋아요. 예를 들어, 매출과 매입 내역을 각각 시트에 정리하고, 한 시트에서 전체 부가세내역을 자동으로 계산하게 만들어두면 업무 효율이 확 올라가거든요. 또, 여러 개의 공급가액과 부가세율이 적용된 경우에는 `VLOOKUP` 함수나 `IF` 조건문을 써서 각각 계산식을 적용하는 것도 좋아요. 이렇게 하면 여러 거래 내역을 일괄 처리하면서 실수도 줄어들고, 신고서 작성시에도 바로 참고할 수 있어서 시간도 절약돼요. 참고로, <a href="https://www.nts.go.kr/" target="_blank" rel="noopener nofollow">국세청</a>이 제공하는 부가세 신고용 엑셀 양식을 가져다가 자신만의 계산기로 커스터마이징하는 것도 좋은 방법이예요.</p>
+
+
+<ins class="adsbygoogle" style="display:block;margin:24px 0" data-ad-client="ca-pub-5883889828782515" data-ad-slot="6656858050" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+<h2 id="부가세-계산-엑셀과-온라인-계산기-비교">부가세 계산 엑셀과 온라인 계산기 비교</h2>
+<p>엑셀로 부가세 계산하는 장점은 자유롭고 커스터마이징이 가능하다는 건데요, 수식을 자신이 원하는 방식으로 변경해서 쓸 수 있거든요. 반면, 온라인 부가세 계산기는 간단한 계산만 빠르게 해주는 데 특화돼 있어서, 복잡한 거래 내역이 많거나 데이터가 많을 때는 엑셀이 훨씬 유리해요. 특히, 여러 거래자료를 일일이 입력하는 경우에는 엑셀 파일로 만들어서 저장해두면 향후 정산과 신고가 훨씬 수월하죠. 다만, 엑셀은 기본적으로 컴퓨터에 설치된 프로그램이 필요하니, 사용 환경에 따라 선택하면 돼요. 최근에는 무료로 내려받을 수 있는 부가세 계산기 엑셀 파일도 많이 공개되고 있으니 참고하시면 좋겠네요.</p>
+
+<h2 id="필수-부가세-계산-엑셀-예제표">필수! 부가세 계산 엑셀 예제표</h2>
+<p>아래 표는 자주 쓰는 부가세 계산 공식과 그 설명을 정리한 예제예요. 실제 업무에 바로 적용할 수 있도록 간단한 양식을 만들어두면 좋겠죠?</p>
+<table class="wp-block-table">
+<tr>
+<th>항목</th>
+<th>수식 또는 설명</th>
+<th>비고</th>
+</tr>
+<tr>
+<td>공급가액</td>
+<td>실제 거래금액</td>
+<td>입력란</td>
+</tr>
+<tr>
+<td>부가세 (10%)</td>
+<td>=A2*0.1</td>
+<td>공급가액이 A2 셀인 경우</td>
+</tr>
+<tr>
+<td>포함 부가세 계산</td>
+<td>=A2/1.1*0.1</td>
+<td>가격에 부가세가 포함된 경우</td>
+</tr>
+<tr>
+<td>공급가역 산출 (부가세 포함)</td>
+<td>=A2/1.1</td>
+<td>판매가격이 부가세 포함 시</td>
+</tr>
+<tr>
+<td>총금액</td>
+<td>=A2+B2</td>
+<td>공급가액 + 부가세</td>
+</tr>
+</table>
+<p>이 표를 참고해서 자신만의 엑셀 계산서 만들어보면 업무처리도 훨씬 빨라지고 실수도 줄어든답니다.</p>
+
+<h2 id="자주-묻는-질문">자주 묻는 질문</h2>
+<h3 id="부가세-계산-엑셀-수식은-어떻게-하나요">부가세 계산 엑셀 수식은 어떻게 하나요?</h3>
+<p>공급가액이 A1 셀에 있고, 부가세율이 10%인 경우, 부가세는 `=A1*0.1`로 계산돼요. 포함 가격에서 공급가액을 역산하려면 `=A1/1.1`을 써보세요.</p>
+<h3 id="엑셀로-만든-부가세-계산기가-무료인가요">엑셀로 만든 부가세 계산기가 무료인가요?</h3>
+<p>네, 많은 무료 양식이 공개되어 있어요. 국세청이나 블로그에서 무료 다운로드 후 자신만의 수식으로 편집해서 쓰면 돼요.</p>
+<h3 id="엑셀-부가세-계산기-활용-시-주의점이-있나요">엑셀 부가세 계산기 활용 시 주의점이 있나요?</h3>
+<p>반올림 처리와 소수점 자리수 조절을 꼭 하세요. `ROUND` 함수로 정확한 계산을 유지하면 신고서 작성도 훨씬 수월해집니다.</p></article>
+<div class="post-list"><h3>🔗 관련글</h3><ul><li><a href="/2026년-반도체-전력관리-지원금과-신청-기준-총정리/">2026년 반도체 전력관리 지원금과 신청 기준 총정리</a><span class="date">2026-07-05</span></li><li><a href="/요양병원-선택-기준-2026년-실전-방법과-핵심-체크포인트/">요양병원 선택 기준 2026년 실전 방법과 핵심 체크포인트</a><span class="date">2026-07-05</span></li><li><a href="/2026년-일용직-실업급여조건-및-신청-방법과-자격-기준-자세히-안내/">2026년 일용직 실업급여조건 및 신청 방법과 자격 기준 자세히 안내</a><span class="date">2026-07-05</span></li><li><a href="/2026년-기준-사직서-무료-양식-작성-방법과-신청-자격-총정리/">2026년 기준 사직서 무료 양식 작성 방법과 신청 자격 총정리</a><span class="date">2026-07-05</span></li><li><a href="/금리-인상과-부동산-시장의-영향과-판단-기준-2026년-전망/">금리 인상과 부동산 시장의 영향과 판단 기준 2026년 전망</a><span class="date">2026-07-04</span></li></ul></div>
+<div class="ad-slot banner-wide" data-slot="project_bottom"></div>
+<footer>
+<div><a href="/">홈</a> · <a href="/feed.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a></div>
+<div class="footer-sites"> <a href="https://love.ledgolf.kr/" target="_blank">러브라이프</a>· <a href="https://home.8949ok.kr/" target="_blank">HOMEFAN</a>· <a href="https://neo.8949ok.kr/" target="_blank">네오 블로거</a>· <a href="https://on.o2u.kr/" target="_blank">ON AIR</a>· <a href="https://view.o2u.kr/" target="_blank">VIEW</a> </div>
+</footer>
+<script src="https://isthex.github.io/00_controltower/ads/ad-loader.js"></script>
+</body>
+</html>
